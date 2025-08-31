@@ -1,0 +1,58 @@
+.banner {
+    width: 100%;
+    height: 190px;
+    background-image: url("/landing/images/banner_croly.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+}
+
+.container_banner{
+    position: relative;
+    margin: auto;
+    align-items: center;
+    width: fit-content;
+    color: white;
+    padding-top: 150px;
+    
+}
+
+.container_banner h1{
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 2px 5px 5px rgba(106, 59, 6, 0.9);
+}
+
+.container_banner p{
+    margin: 0;
+    font-size: 25px;
+    color: rgb(223, 221, 209);
+    font-weight: 600;
+    text-shadow: 0px 0px 5px rgba(106, 59, 6, 0.9);
+}
+
+.btn-primary{
+    position: absolute;
+    right: 80px;
+    bottom: 5px;
+    display: flex;
+    align-items: center;    /* vertical alignment */
+    justify-content: center;/* horizontal alignment */
+    max-width: 200px;
+    white-space: normal;
+    text-align: center;
+    padding: 3px 5px;
+    background-color: rgba(0, 0, 0, 0.616);
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0px 5px rgba(0, 0, 0, 0.197);
+    font-size: 125%;
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition: 0.3ms;
+}
+
+.btn-primary:hover{
+    background-color: aquamarine;
+}
